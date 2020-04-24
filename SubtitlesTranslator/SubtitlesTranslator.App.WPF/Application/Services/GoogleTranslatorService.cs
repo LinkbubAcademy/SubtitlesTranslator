@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.DirectoryServices.ActiveDirectory;
+using System.IO;
 using System.Linq;
 using System.Net;
 using System.Timers;
@@ -85,8 +86,12 @@ namespace SubtitlesTranslator.App.WPF.ApplicationServices
         {            
             var from = LanguageOptions.Types[fromLanguage];
             var to = LanguageOptions.Types[toLanguage];
-           
-            var key = "Pon Aquí tu Clave!";
+
+            var jsonKeyFile = File.ReadAllText("Key.json");
+            var jsonKey = JsonConvert.DeserializeObject<JsonKey>(jsonKeyFile);
+
+            //var key = "Pon Aquí tu Clave!";
+            var key = jsonKey.Key;
             var url = $"https://translation.googleapis.com/language/translate/v2?key={key}&sl={from}&target={to}";
 
             foreach (var input in inputs)
@@ -204,4 +209,10 @@ namespace SubtitlesTranslator.App.WPF.ApplicationServices
     {
         public Data data { get; set; }
     }
+
+    class JsonKey
+    {
+        public string Key { get; set; }
+    }
+
 }

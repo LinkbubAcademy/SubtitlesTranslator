@@ -24,3 +24,4 @@ C:\Users\josef\Documents\Clases\Linkbub Academy\Proyectos\Subtitles Translator\C
 C:\Users\josef\Documents\Clases\Linkbub Academy\Proyectos\Subtitles Translator\Code\SubtitlesTranslator\SubtitlesTranslator.App.WPF\obj\Debug\netcoreapp3.1\SubtitlesTranslator.App.WPF.csproj.CoreCompileInputs.cache
 C:\Users\josef\Documents\Clases\Linkbub Academy\Proyectos\Subtitles Translator\Code\SubtitlesTranslator\SubtitlesTranslator.App.WPF\obj\Debug\netcoreapp3.1\SubtitlesTranslator.App.WPF.csproj.CopyComplete
 C:\Users\josef\Documents\Clases\Linkbub Academy\Proyectos\Subtitles Translator\Code\SubtitlesTranslator\SubtitlesTranslator.App.WPF\obj\Debug\netcoreapp3.1\SubtitlesTranslator.App.WPF.csprojAssemblyReference.cache
+C:\Users\josef\Documents\Clases\Linkbub Academy\Proyectos\Subtitles Translator\Code\SubtitlesTranslator\SubtitlesTranslator.App.WPF\bin\Debug\netcoreapp3.1\Key.json
