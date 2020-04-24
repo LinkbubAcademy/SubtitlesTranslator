@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "j3qaPxwbdeUCPCWq8o5BEueabkrzMUJ29zCCt6jGqlw0ecMEUohIPTiL9Qe4xCIf1kepBbI9U0vnSfvS5Cu8MQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\josef\\Documents\\Clases\\Linkbub Academy\\Proyectos\\Subtitles Translator\\Code\\SubtitlesTranslator\\SubtitlesTranslator.App.WPF\\SubtitlesTranslator.App.WPF.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\josef\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
